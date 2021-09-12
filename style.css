@@ -162,3 +162,20 @@ footer{
 .ftrdis1{
    margin-left: 40%;
 }
+
+@media screen and (max-width:900px){
+    .dist{
+        margin-left: 60%;
+    }
+    button{
+        width: fit-content;
+    }
+    .ftrdis1{
+        margin-left: 25%;
+    }
+}
+@media screen and (max-width:600px){
+    .dist{
+        display: none;
+    }
+}
