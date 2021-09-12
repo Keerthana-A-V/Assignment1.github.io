@@ -1,0 +1,164 @@
+header{
+    background-color: rgb(136, 208, 211);
+    width: 100%;
+    padding: 10px;
+   font-family:cursive;
+    opacity: 1;
+}
+a{
+    color: rgb(39, 39, 37);
+    padding: 4px;
+    text-decoration: none;  
+    word-spacing: 10px;
+}
+.dist{
+    margin-left: 78%;
+    margin-top: -25px;
+}
+
+.dist1:hover{
+    color:rgb(194, 241, 243);
+    font-size: large;
+}
+.typer{
+    font-size: larger;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: cadetblue;
+
+}
+
+button{
+    background-color: cadetblue;
+    color: white;
+    width: 15%;
+    height: 40px;
+    margin-left: 40%;
+    border:black solid;
+    border-radius:10px;
+    letter-spacing: 1px;
+}
+button:hover{
+   text-shadow:blanchedalmond;
+   text-shadow: 5px 5px 5px burlywood;
+   box-shadow: 4px 4px 5px rgb(65, 61, 70);
+}
+
+.mo{
+    margin-left:42% ;
+    font-size: larger;
+    font-family: cursive;
+
+}
+.mo1{
+    margin-left:40% ;
+    font-size: larger;
+    font-family: cursive;
+
+}
+.bg{
+    background-image: url('https://previews.123rf.com/images/wamsler/wamsler1907/wamsler190700021/127785152-open-book-close-up-on-blue-grungy-background-reading-education-literature-learning-good-copy-space.jpg');
+    background-repeat:no-repeat;
+}
+
+/*team*/
+.vdpr{
+    display: inline;
+    box-sizing: border-box;
+}
+.zpteam{
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    display: inline;
+    cursor: pointer;
+}
+
+.zpteam1{
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    cursor: pointer;
+}
+.alteam{
+    display: inline-block;
+margin-left: 40px;}
+.alteam1{
+    display: inline-block;
+    margin-left: 40px;}
+.ali{
+    border-radius: 100%;
+    display: none;
+}
+.alteam:hover .zpteam{
+    opacity: 0.5;
+}
+.alteam1:hover .zpteam1{
+    opacity: 0.5;
+}
+
+.alteam:hover .overlay {
+    border-radius: 100%;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+    background-color: rgb(5, 173, 252);
+    align-self: center;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+
+}
+.alteam1:hover .overlay1{
+    border-radius: 100%;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+    background-color: rgb(5, 173, 252);
+    align-self: center;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+.alteam:hover .ali{
+    display: inline;
+    height: 40px;
+    width: 40px;
+    padding: 2px;
+    margin-top: 80px;
+}
+.alteam1:hover .ali{
+    display: inline;
+    height: 40px;
+    width: 40px;
+    padding: 2px;
+    margin-top: 80px;
+}
+/*ffoter*/
+footer{
+    background-color: rgb(216, 236, 208);
+}
+.ftr{
+    display: inline-block;
+    margin-right: 60px;
+    
+}
+.ftrimg
+{
+    width: 25px;
+    height: 25px;
+}
+.ftrdis{
+    display: inline-block;
+}
+.abt{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: cursive;
+}
+.ftrdis1{
+   margin-left: 40%;
+}
